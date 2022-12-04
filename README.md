@@ -17,6 +17,11 @@ To run the EKF algorithm, run extended_kalman_filter.py\
 To run the UKF algorithm, uncomment the last line in the Unscented_kalman_filter.py file to call the function estimate_rot
 
 ## Results
+### Extended Kalman Filter
+Plotting the true value of a and the estimated value of a along with their low and high variance estimates.
+![image](https://user-images.githubusercontent.com/38180831/205469328-7f96646c-09b6-40bc-a1e3-936ca763afd1.png)
+
+### Unscented Kalman Filter
 #### Plotting the mean of quaternion q and the quaternion corresponding to the vicon orientation:
 ![image](https://user-images.githubusercontent.com/38180831/205468844-3e5bcec9-5ab4-450d-9e02-c0e64e0b384c.png)
 
