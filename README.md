@@ -13,10 +13,8 @@ The data consist of observations from an inertial measurement unit (IMU) that co
 The data is provided as .mat files in /imu and /vicon folders.
 
 ## Run
-### EKF
-Run extended_kalman_filter.py
-### UKF
-Uncomment the last line in the Unscented_kalman_filter.py file to call the function estimate_rot
+To run the EKF algorithm, run extended_kalman_filter.py
+To run the UKF algorithm, uncomment the last line in the Unscented_kalman_filter.py file to call the function estimate_rot
 
 ## Results
 #### Plotting the mean of quaternion q and the quaternion corresponding to the vicon orientation:
