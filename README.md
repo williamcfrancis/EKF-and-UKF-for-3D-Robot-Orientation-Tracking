@@ -13,14 +13,14 @@ The data consist of observations from an inertial measurement unit (IMU) that co
 The data is provided as .mat files in /imu and /vicon folders.
 
 ## Results
-Plotting the mean of quaternion q and the quaternion corresponding to the vicon orientation:
+#### Plotting the mean of quaternion q and the quaternion corresponding to the vicon orientation:
 ![image](https://user-images.githubusercontent.com/38180831/205468844-3e5bcec9-5ab4-450d-9e02-c0e64e0b384c.png)
 
-Plotting the covariance of quaternion q:
+#### Plotting the covariance of quaternion q:
 ![image](https://user-images.githubusercontent.com/38180831/205468857-061caf34-6b4e-4eb3-aa7e-9e659a318c45.png)
 
-Plotting the mean of angular velocity:
+#### Plotting the mean of angular velocity:
 ![image](https://user-images.githubusercontent.com/38180831/205468869-ba60d938-56b4-4591-a3c2-4e96a7259dc7.png)
 
-Plotting the diagonal of covariance of angular velocity:
+#### Plotting the diagonal of covariance of angular velocity:
 ![image](https://user-images.githubusercontent.com/38180831/205468883-2b306e83-1517-4d7a-989c-e83cd905b441.png)
