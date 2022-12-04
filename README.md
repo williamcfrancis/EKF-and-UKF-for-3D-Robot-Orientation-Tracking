@@ -5,10 +5,10 @@ The next generation of KF was the Extended Kalman Filter (EKF) and it was a succ
 
 Here I developed the UKF for the IMU data and the vicon data for calibration and tuning of the filter, this is typical of real applications where the robot uses an IMU but the filter running on the robot will be calibrating before test-time in the lab using an expensive and accurate sensor like a Vicon.
 
-As reference for the UKF implementation, I used this paper - [A quaternion-based unscented Kalman filter for orientation tracking](https://ieeexplore.ieee.org/document/1257247) 
+As reference for the UKF implementation, I used this paper - [A quaternion-based unscented Kalman filter for orientation tracking](https://ieeexplore.ieee.org/document/1257247) by Edgar Kraft
 
 ### Data
 The data consist of observations from an inertial measurement unit (IMU) that consists of gyroscopes and accelerometers and corresponding data from a motion-capture system called Vicon. See [this video](https://www.youtube.com/watch?v=qgS1pwsHQIA&ab_channel=TravisErickson) to get a better understand of the Vicon system.
 
-The data is given as .mat files in /imu and /vicon folders.
+The data is provided as .mat files in /imu and /vicon folders.
 
