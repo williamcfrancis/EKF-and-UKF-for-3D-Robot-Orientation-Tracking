@@ -13,7 +13,7 @@ The data consist of observations from an inertial measurement unit (IMU) that co
 The data is provided as .mat files in /imu and /vicon folders.
 
 ## Run
-To run the EKF algorithm, run extended_kalman_filter.py
+To run the EKF algorithm, run extended_kalman_filter.py\
 To run the UKF algorithm, uncomment the last line in the Unscented_kalman_filter.py file to call the function estimate_rot
 
 ## Results
