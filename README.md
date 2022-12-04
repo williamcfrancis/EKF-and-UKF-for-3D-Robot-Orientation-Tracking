@@ -13,7 +13,7 @@ The data consist of observations from an inertial measurement unit (IMU) that co
 The data is provided as .mat files in /imu and /vicon folders.
 
 ## Run
-Call the function estimate_rot in the estimate_rot.py file
+Uncomment the last line in the estimate_rot.py file to call the function estimate_rot
 
 ## Results
 #### Plotting the mean of quaternion q and the quaternion corresponding to the vicon orientation:
