@@ -1,4 +1,5 @@
-# Extended Kalman Filter and Unscented Kalman Filter to track robot orientation in 3D
+# Extended Kalman Filter and Unscented Kalman Filter for 3D Robot Orientation Tracking
+## Overview
 Kalman filtering, also known as linear quadratic estimation (LQE), is an algorithm that uses a series of measurements observed over time, including statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone, by estimating a joint probability distribution over the variables for each timeframe. It works good, but the downside of using Kalman Filter is that it only works for linear systems.
 
 The next generation of KF was the Extended Kalman Filter (EKF) and it was a successful filter because it takes account to non-linearity. The only drawback with EKF is that it’s too difficult to do in real time practice at a microcontroller. Note that EKF is just a linearized KF by using jacobians, which is not very easy to use in practice. Therefore, another filter was created to replace EKF, it was Unscented Kalman Filter (UKF) and it was the most successful kalman filter ever made. 
